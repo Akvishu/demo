@@ -1,0 +1,144 @@
+<web-app>
+
+		<servlet>
+			<servlet-name>Login</servlet-name>
+			<servlet-class>Login</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>Login</servlet-name>
+			<url-pattern>/adm</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>AccLogi</servlet-name>
+			<servlet-class>AccLogi</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>AccLogi</servlet-name>
+			<url-pattern>/act</url-pattern>
+		</servlet-mapping>
+ 	    
+ 	    <servlet>
+			<servlet-name>ex</servlet-name>
+			<servlet-class>ex</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>ex</servlet-name>
+			<url-pattern>/add</url-pattern>
+		</servlet-mapping>
+
+		 <servlet>
+			<servlet-name>AddAcc</servlet-name>
+			<servlet-class>AddAcc</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>AddAcc</servlet-name>
+			<url-pattern>/aaaddd</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>ex2</servlet-name>
+			<servlet-class>ex2</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>ex2</servlet-name>
+			<url-pattern>/xyz</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>AddStd</servlet-name>
+			<servlet-class>AddStd</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>AddStd</servlet-name>
+			<url-pattern>/adstd</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>Searchstd</servlet-name>
+			<servlet-class>Searchstd</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>Searchstd</servlet-name>
+			<url-pattern>/Searchstd</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>ex3</servlet-name>
+			<servlet-class>ex3</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>ex3</servlet-name>
+			<url-pattern>/viewstd</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>ex4</servlet-name>
+			<servlet-class>ex4</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>ex4</servlet-name>
+			<url-pattern>/view</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>SearchAcc</servlet-name>
+			<servlet-class>SearchAcc</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>SearchAcc</servlet-name>
+			<url-pattern>/SearchAcc</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>ex5</servlet-name>
+			<servlet-class>ex5</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>ex5</servlet-name>
+			<url-pattern>/dues</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>FeeDues</servlet-name>
+			<servlet-class>FeeDues</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>FeeDues</servlet-name>
+			<url-pattern>/FeeDues</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>Update</servlet-name>
+			<servlet-class>Update</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>Update</servlet-name>
+			<url-pattern>/Update</url-pattern>
+		</servlet-mapping>
+
+
+
+		<servlet>
+			<servlet-name>FeeUpdate</servlet-name>
+			<servlet-class>FeeUpdate</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>FeeUpdate</servlet-name>
+			<url-pattern>/Updfee</url-pattern>
+		</servlet-mapping>
+</web-app>
